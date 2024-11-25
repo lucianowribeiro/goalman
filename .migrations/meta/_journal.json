@@ -15,6 +15,13 @@
       "when": 1730745533738,
       "tag": "0001_busy_forge",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1732556333768,
+      "tag": "0002_special_triton",
+      "breakpoints": true
     }
   ]
 }

@@ -7,7 +7,7 @@ interface CreateGoalCompletionRequest {
   goalId: string
 }
 
-export async function createGoalCompletion({
+export async function createGoalsCompletion({
   goalId,
 }: CreateGoalCompletionRequest) {
   const firstDayOfWeek = dayjs().startOf('week').toDate()
