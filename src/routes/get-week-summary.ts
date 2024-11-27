@@ -10,8 +10,8 @@ export const getWeekSummaryRoute: FastifyPluginAsyncZod = async (
     method: 'GET',
     url: '/summary',
     handler: async () => {
-      const { result } = await getWeekSummary()
-      return result
+      const { summary } = await getWeekSummary()
+      return summary
     },
   })
 }
